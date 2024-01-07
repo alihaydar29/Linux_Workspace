@@ -1,0 +1,8 @@
+
+if egrep "^$1" meyve > /dev/null
+then
+	:
+else
+	echo "$1 bulunamadı"
+	exit 1
+fi

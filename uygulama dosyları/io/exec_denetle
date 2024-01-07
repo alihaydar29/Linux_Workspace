@@ -1,0 +1,7 @@
+if [[ -x $1 ]]
+then
+	./$1 ahmet
+else
+	chmod u+x $1
+	./$1 yakup
+fi

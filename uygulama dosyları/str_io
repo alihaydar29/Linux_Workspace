@@ -1,0 +1,14 @@
+var="Merhaba Dunya"
+
+echo ${var:8}
+echo ${var:(-5)}
+echo ${var:0:7}
+
+echo ${var:20:30}
+
+var2="$var $var"
+echo $var2
+
+echo "var uzunluk = ${#var}"
+
+echo ${'merhaba':0:3}

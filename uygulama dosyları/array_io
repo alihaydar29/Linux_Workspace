@@ -1,0 +1,10 @@
+declare -a sports
+sports=(basketbol futbol voleybol)
+moresports=(${sports[2]} tenis)
+
+echo ${moresports[@]}
+echo "moresports length = ${#moresports[*]}"
+
+sports[4]=hokey
+
+echo ${sports[0]}

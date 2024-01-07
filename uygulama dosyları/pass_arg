@@ -1,0 +1,5 @@
+# toplam=`expr $1 + $2 + $3 + $4 + $5`
+# toplam=$(($1+$2+$3+$4+$5))
+var1=3
+toplam=$((var1+var2))
+echo "sayilarin toplamı : $toplam"

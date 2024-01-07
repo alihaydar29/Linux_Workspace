@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Merhaba, Dunya!"
+
+calisma_dizini=$(pwd)
+
+echo $calisma_dizini

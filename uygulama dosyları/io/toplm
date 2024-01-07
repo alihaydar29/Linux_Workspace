@@ -1,0 +1,4 @@
+echo "iki sayi giriniz : "
+read sayi1 sayi2
+
+echo "$sayi1 + $sayi2 = `expr $sayi1 + $sayi2`"

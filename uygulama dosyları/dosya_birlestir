@@ -1,0 +1,26 @@
+dosyalar=(*)
+tek_dosya=$1
+
+echo $dosyalar
+
+if [[ -e $tek_dosya ]]
+then
+	echo "hata : dizinde mevcut olamayan bir dosya ismi giriniz..."
+	exit 1
+else
+	echo "$tek_dosya ismi gecerli"
+fi
+
+for dosya in ${dosyalar[*]}
+do
+	if [[ -f $dosya ]]
+	then
+		echo "$dosya isleniyor..."
+		echo "### $dosya #######################" >> $tek_dosya
+		cat $dosya >> $tek_dosya
+                echo "##################################" >> $tek_dosya
+	else
+		:	
+	fi
+done
+

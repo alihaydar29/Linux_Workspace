@@ -1,0 +1,10 @@
+toplam=0
+
+while [ $# -gt 0 ]
+do
+	toplam=`expr $toplam + $1`
+	shift
+	shift
+done
+echo toplam = $toplam
+

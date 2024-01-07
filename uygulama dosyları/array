@@ -1,0 +1,17 @@
+declare -a sports
+sports=(futbol basketbol voleybol)
+
+echo $sports
+
+echo ${sports[1]}
+
+sports[3]=hentbol
+
+echo ${sports[3]}
+
+moresports=(${sports[@]} hokey)
+
+echo moresports ${moresports[*]}
+echo sports ${sports[@]}
+echo "sports dizisinin eleman sayisi  ${#sports[*]}"
+

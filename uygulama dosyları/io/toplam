@@ -1,0 +1,6 @@
+var=$1
+var2=$2
+# toplam=$((var+var2))
+toplam=$(($1+$2))
+
+echo "toplam = $toplam"

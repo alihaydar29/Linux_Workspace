@@ -1,0 +1,39 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gdm         1029  0.0  0.1 175508  6312 tty1     Ssl+ 21:03   0:00 /usr/lib/gdm3/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+root        1031  0.0  1.4 813812 57916 tty1     Sl+  21:03   0:00 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/125/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+gdm         1077  0.0  0.0   4764  1284 tty1     S+   21:03   0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         1078  0.0  0.1   8144  4100 tty1     S+   21:03   0:00 dbus-daemon --nofork --print-address 4 --session
+gdm         1079  0.0  0.3 702232 14996 tty1     Sl+  21:03   0:00 /usr/libexec/gnome-session-binary --systemd --autostart /usr/share/gdm/greeter/autostart
+gdm         1094  0.0  0.1 309528  7996 tty1     Sl+  21:03   0:00 /usr/libexec/at-spi-bus-launcher
+gdm         1099  0.0  0.0   7804  3448 tty1     S+   21:03   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm         1145  0.0  5.0 4633140 201920 tty1   Sl+  21:03   0:09 /usr/bin/gnome-shell
+gdm         1169  0.0  0.2 325744  9496 tty1     Sl   21:03   0:00 ibus-daemon --panel disable --xim
+gdm         1174  0.0  0.2 251324  8092 tty1     Sl   21:03   0:00 /usr/libexec/ibus-dconf
+gdm         1177  0.0  0.4 201292 17092 tty1     Sl   21:03   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         1182  0.0  0.2 251244  8052 tty1     Sl+  21:03   0:00 /usr/libexec/ibus-portal
+gdm         1190  0.0  0.1 161408  6880 tty1     Sl+  21:03   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         1194  0.0  0.1 247160  4724 tty1     Sl+  21:03   0:00 /usr/libexec/xdg-permission-store
+gdm         1209  0.0  0.6 2742656 24832 tty1    Sl+  21:03   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         1222  0.0  0.3 480604 12024 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-sharing
+gdm         1223  0.0  0.3 346012 14576 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-wacom
+gdm         1226  0.0  0.4 425168 18924 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-color
+gdm         1228  0.0  0.4 349348 17824 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-keyboard
+gdm         1231  0.0  0.2 260260 10168 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-print-notifications
+gdm         1236  0.0  0.1 468816  5980 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-rfkill
+gdm         1237  0.0  0.2 329336  9644 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-smartcard
+gdm         1244  0.0  0.3 386276 15436 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-datetime
+gdm         1247  0.0  0.5 904212 20144 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-media-keys
+gdm         1250  0.0  0.1 177572  8000 tty1     Sl   21:03   0:00 /usr/libexec/ibus-engine-simple
+gdm         1254  0.0  0.1 247128  5916 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-screensaver-proxy
+gdm         1255  0.0  0.2 331452 10004 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-sound
+gdm         1256  0.0  0.2 325004  8424 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-a11y-settings
+gdm         1266  0.0  0.2 325336  8572 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-housekeeping
+gdm         1271  0.0  0.4 424780 18676 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-power
+gdm         1298  0.0  0.1 156232  5032 tty1     Sl+  21:03   0:00 /usr/libexec/dconf-service
+gdm         1301  0.0  0.3 353896 12472 tty1     Sl+  21:03   0:00 /usr/libexec/gsd-printer
+szavrak     1469  0.0  0.1 175508  6256 tty2     Ssl+ 21:04   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+root        1472  0.6  2.0 912336 83268 tty2     Rl+  21:04   1:04 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+szavrak     1490  0.0  0.3 202068 13564 tty2     Sl+  21:04   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+szavrak     6133  0.0  0.1  21992  5152 pts/0    Ss   21:15   0:00 bash
+szavrak     8333  0.0  0.0  23152  3812 pts/0    T    23:35   0:00 top
+szavrak     9033  0.0  0.0  22436  3072 pts/0    R+   23:57   0:00 ps -au

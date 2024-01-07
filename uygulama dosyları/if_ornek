@@ -1,0 +1,9 @@
+if [[ -x $1 ]]
+then
+	echo "$1 executable"
+	./$1
+else
+	echo "$1 is not executable. executable permission has granted."
+	chmod u+x $1
+	./$1
+fi

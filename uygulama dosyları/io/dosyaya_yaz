@@ -1,0 +1,9 @@
+if [[ -e $1 ]]
+then
+	echo "$1 dosyasi mevcut"
+	echo $2 >> $1
+else
+	echo "$1 dosya bulunamadi"
+	# touch $1
+	echo $2 > $1
+fi

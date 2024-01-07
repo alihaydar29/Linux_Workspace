@@ -1,0 +1,9 @@
+if [[ -e $1 ]]
+then
+	echo "$1 dizinde eyr almakta"
+	echo "$2" >> $1
+else
+	echo "$1 bulunamadi"
+	# touch $1
+	echo "$2" > $1
+fi

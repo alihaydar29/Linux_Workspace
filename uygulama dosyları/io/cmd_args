@@ -1,0 +1,6 @@
+echo "script ismi : $0"
+echo "1. arguman : ${1}"
+echo "2. arguman : $2"
+echo "aruguma sayisi: $#"
+echo "arguman string : $*"
+echo "10. arguman : ${10}"

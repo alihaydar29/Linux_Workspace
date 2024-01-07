@@ -1,0 +1,1 @@
+who | egrep "^$1 " > /dev/null && echo "$1 su anda aktif" || echo "$1 su anda aktif degil"

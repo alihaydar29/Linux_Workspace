@@ -1,0 +1,7 @@
+var=1000
+
+echo '\$var = $var'
+
+unset var
+
+echo -n $var

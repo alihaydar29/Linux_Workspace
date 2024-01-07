@@ -1,0 +1,11 @@
+echo arguman olarak saglanan parametreler $1, $2, $3, $4, $5
+
+echo script adi $0
+
+echo parametre sayisi: $#
+# var=$5
+toplam=`expr $1 + $2 + $3 + $4 + $5`
+# toplam3=$(($1+$2+$3+$4+var))
+
+echo toplam : $toplam
+echo toplam3 : $toplam3
